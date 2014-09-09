@@ -1,0 +1,64 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.banner{
+  margin: 0;
+  position: relative;
+}
+
+.pic-caption{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 3%;
+  color: white;
+  width: 100%;
+}
+
+.dino-specs{
+  float: left;
+  border-right: 1px solid #bbbbbb;
+  padding-right: 10%;
+  margin-right: 1%;
+}
+
+.sub-t{
+  margin: 0;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.content{
+  margin-left: 5%;
+  margin-top: 2rem;
+}
